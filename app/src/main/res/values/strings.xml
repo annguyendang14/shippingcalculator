@@ -9,4 +9,6 @@
     <string name="totalLBL">Total Shipping Cost:</string>
     <string name="zeroDec">$0.00</string>
     <string name="zero">0</string>
+    <string name="numpack">Number of packages</string>
+    <string name="one">1</string>
 </resources>
