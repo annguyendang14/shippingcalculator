@@ -54,6 +54,8 @@ public class MyActivity extends AppCompatActivity {
 
     }
 
+
+
  /*   private TextWatcher weightTextWatcher = new TextWatcher() {
         @Override
         public void beforeTextChanged(CharSequence s, int start, int count, int after) {
@@ -83,4 +85,27 @@ public class MyActivity extends AppCompatActivity {
     }*/
 
 
+}
+
+class CustomTextWatcher implements TextWatcher {
+    private ShipItem shipItem;
+
+    public CustomTextWatcher(ShipItem item) {
+        shipItem = item;
+    }
+
+
+    @Override
+    public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+
+    }
+
+    @Override
+    public void onTextChanged(CharSequence s, int start, int before, int count) {
+    }
+
+    @Override
+    public void afterTextChanged(Editable s) {
+
+    }
 }
